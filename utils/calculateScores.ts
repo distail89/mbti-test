@@ -161,7 +161,7 @@ export function calculateDimensionScore(
   };
 }
 
-interface AllScoresResult {
+export interface AllScoresResult {
   mbtiType: string | null;
   dimensions: Record<string, DimensionScoreResult>;
   details: Record<string, string>;
