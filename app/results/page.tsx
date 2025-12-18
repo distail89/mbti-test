@@ -186,6 +186,11 @@ export default function ResultsPage() {
             홈으로
           </Link>
         </div>
+
+        {/* 푸터 */}
+        <footer className="mt-12 text-center text-sm text-gray-500">
+          <p>© 2025 Oh Jongmin. All rights reserved.</p>
+        </footer>
       </div>
     </main>
   )
